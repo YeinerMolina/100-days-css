@@ -1,0 +1,25 @@
+{
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnPaste": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "typescript.preferences.importModuleSpecifier": "project-relative"
+}

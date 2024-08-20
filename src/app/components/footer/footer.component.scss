@@ -1,0 +1,18 @@
+footer {
+  padding: 2.8rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.footer-right span {
+  font-size: 0.9em;
+}
+
+.footer_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
