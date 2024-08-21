@@ -1,14 +1,14 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
-import { DayOneComponent } from '../challenge/day-one/day-one.component';
+import { days } from '../challenge';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   standalone: true,
-  imports: [DayOneComponent, NgFor],
+  imports: [...days, NgFor],
 })
 export class HomeComponent {
   images = Array.from(
